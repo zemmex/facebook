@@ -1,0 +1,239 @@
+<!DOCTYPW html>
+<html>
+  <head>
+    <title>facebook home page</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content=
+    "width=device-width,initial-scale=1.0"/>
+    <meta name="author" content="zemmex"/>
+    <style>
+      body{
+        
+      }
+      
+      /** top div **/
+      #top{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:1.5em;
+      }
+      #left-top img{
+        width:20px;
+        height:20px;
+        border-radius:20px;
+        padding:5px;
+        background:rgba(155,155,155,0.5);
+      }
+      #left-top{
+        display:flex;
+        justify-content:space-between;
+        width:18%;
+      }
+      #right-top img{
+        width:6em;
+        height:2em;
+      }
+
+
+      /** section two  **/
+      .sw-buttons{
+        width:18px;
+        height:20px;
+
+      }
+      #switches{
+        display:flex;
+        justify-content:space-between;
+        width:95%;
+        margin-right:auto;
+        margin-left:auto;
+        align-items:center;
+        margin-bottom:0.6em;
+      }
+      #hom{
+        width:25px;
+        height:25px;
+        background:rgba(114,114,114,1);
+        border-radius:10px;
+        padding:2px;
+      }
+      #grp{
+        border:0.7px solid black;
+        border-radius:15px;
+        padding:1.5px;
+      }
+      #line{
+        margin:0 -7px 0.7em;
+        width:105%;
+        border-width:0.3px solid rgba(255,255,255,0.2);
+      }
+
+
+      /** your thoughts  **/
+      #thoughts{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+
+
+
+      }
+      #thoughts img{
+        width:26px;
+        height:26px;
+      }
+      #thoughts input{
+        width:80%;
+        height:3em;
+        border-radius:18px;
+        margin-right:0.6em;
+        align-self:center;
+        background:rgba(180,185,195,0.5);
+        border-style:none;
+        font-family:monospace;
+        font-size:14px;
+        font-weight:bold;
+        padding-left:1em;
+
+      }
+      #thoughts #acpic{
+        border-radius:25px;
+        width:35px;
+        height:35px;
+        background:blue;
+
+
+      }
+      #photos{
+        display:flex;
+        flex-direction:column;
+        padding-top:10px;
+
+      }
+      #ph-txt{
+        font-size:8px;
+        font-family:monospace;
+        font-weight:bold;
+
+      }
+      #solid-break{
+        margin:0.2em -1em 0.7em;
+        border:3px solid rgba(111,111,111,0.5);
+
+
+      }
+
+
+      /** stories **/
+      #stories{
+        display:flex;
+        background:gray;
+
+      }
+      #story_pic{
+        border:1.5px solid silver;
+
+      }
+      .box{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between";
+        background-position:center;
+        background-size:180px;
+        width:90px;
+        height:180px;
+        border-radius:15px;
+        background:green;
+      }
+      .count{
+
+      }
+      #zero{
+
+      }
+      #one{
+        background-image:url("./image1.png");
+      }
+      #two{
+        background-image:url("./image2.png");
+        background-size:90px 200px;
+      }
+      #three{
+        background-image:url("./image3.png");
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <!-- top logos -->
+    <div id="top">
+        <div id="right-top">
+        <img class="top-icon" id="logo" alt="facebook" src="./dan.png"/>
+      </div>
+      <div id="left-top">
+        <img class="top-icon" id="sch" alt="search" src="./dw4.g.png"/>
+        <img class="top-icon" id="opt" alt="option" src="./cf7.g.png"/>
+      </div>
+    </div>
+
+
+    <!-- switcher buttons -->
+    <div id="switches">
+      <img class="sw-buttons" alt="home" src="
+      ./cjt.png" id="hom"/>
+      <img class="sw-buttons" alt="freinds" src="./z7.g.png" id="frnd"/>
+      <img class="sw-buttons" alt="messenger" src="./cfl.g.png" id="msg"/>
+      <img class="sw-buttons" alt="watch" src="./b.png" id="wch"/>
+      <img class="sw-buttons" alt="bell" src="./cp4.g.png" id="bel"/>
+      <img class="sw-buttons" alt="group" src="./dwn.g.png" id="grp"/>
+    </div>
+    <hr id="line"/>
+
+
+
+    <!-- your thougts  -->
+    <div id="thoughts">
+      <img alt="account picture" id="acpic" src=
+      "w5.png"/>
+      <input id="sch" type="search" placeholder=
+      "What's on your mind?"/>
+      <div id="photos">
+        <img id="phot" alt="photo icon" src=
+        "./t2.g.png"/>
+        <p id="ph-txt">photo</p>
+      </div>
+    </div>
+    <hr id="solid-break"/>
+
+
+    <!-- stories -->
+    <div id="stories">
+      <div class="box" id="zero">
+        <img id="story_pic" alt="account_pic" src=
+        "./w5.png"/>
+        <img id="add" alt="browse" src=
+        "./7k.g.png"/>
+        <p>Add to story</p>
+      </div>
+      <div id="one" class="box">
+        <p class="count">1</p>
+        <p>name</p>
+      </div>
+      <div id="two" class="box">
+        <p class="count">2</p>
+        <p>name</p>
+      </div>
+      <div id="three" class="box">
+        <p class="count">1</p>
+        <p>name</p>
+      </div>
+    </div>
+
+
+
+
+
+  </body>
+</html>
